@@ -29,6 +29,12 @@ class MainActivity : ComponentActivity() {
 fun Greeting2(name: String) {
   Text(text = "Hello $name!")
 }
+
+@Composable
+fun Greeting12(name: String) {
+  Text(text = "Hello $name!")
+}
+
 @Composable
 fun Greeting(name: String) {
   Text(text = "Hello $name!")
